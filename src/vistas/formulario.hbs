@@ -1,0 +1,29 @@
+<link rel="stylesheet" href="css/estilosInicioSesion.css">
+
+
+<form action="/formulario" method="POST"> {{!-- FORMULARIO --}}
+<section class="form-register">
+    <h1 class="text-center">Ingreso de conductores</h1>
+    {{!-- EMAIL --}}
+    <div class="form-group">
+        <label class="col-sm-12 control-label" for="email">Email</label>
+        <div class="col-sm-12">
+            <input class="controls" type="email" name="email" id="email" placeholder="Escribe tu email">
+        </div>
+        <br>
+    </div>
+    {{!-- CONTRASEÑA --}}
+    <div class="form-group">
+        <label class="col-sm-12 control-label" for="password">Password</label>
+        <div class="col-sm-12">
+            <input class="controls" type="password" name="password" id="password" placeholder="Escribe tu password">
+        </div>
+        <br>
+    </div>
+    {{!-- BOTON DE INGRESAR --}}
+    <div class="form-group">
+        <button type="submit" class="botons">CREAR CUENTA</button>
+        <br>
+    </div>
+</section>
+</form>

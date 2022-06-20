@@ -1,0 +1,29 @@
+<link rel="stylesheet" href="css/estilosInicioSesion.css">
+<html xmlns=""http://www.w3.org/1999/xhtml>
+    <head runat="server">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Consultar Pedido</title>
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <form action="/Consultar_p" method="POST"> {{!-- FORMULARIO --}}
+            <section class="form-register">
+                <h1 class="text-center">Consultar Pedido</h1>
+                
+                <div class="form-group">
+                    <div class="col-sm-12">
+                        <input class="controls" type="text" name="id_pedido" placeholder="Id_Pedido" required><br>
+                    </div>
+                    <br>
+                </div>
+                {{!-- BOTON DE CONSULTAR --}}
+                <div class="form-group">
+                    <input class="botons" type="submit" name="Consultar" value="Consultar">
+                    <br>
+                </div>
+            </section>
+        </form>
+    </body>
+</html>
+
+

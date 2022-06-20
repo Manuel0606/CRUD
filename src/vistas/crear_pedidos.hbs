@@ -1,0 +1,53 @@
+<link rel="stylesheet" href="css/estilosInicioSesion.css">
+
+
+<form action="/crear_pedidos" method="POST"> {{!-- FORMULARIO --}}
+<section class="form-register">
+    <h1 class="text-center">Ingreso de conductores</h1>
+    {{!-- ID PEDIDO --}}
+    <div class="form-group">
+        <label class="col-sm-12 control-label" for="id_pedido">id_pedido</label>
+        <div class="col-sm-12">
+            <input class="controls" type="text" name="id_pedido" id="id_pedido" placeholder="id_pedido">
+        </div>
+        <br>
+    </div>
+    {{!-- COMPRADOR --}}
+    <div class="form-group">
+        <label class="col-sm-12 control-label" for="comprador">comprador</label>
+        <div class="col-sm-12">
+            <input class="controls" type="text" name="comprador" id="comprador" placeholder="comprador">
+        </div>
+        <br>
+    </div>
+    {{!-- valor --}}
+    <div class="form-group">
+        <label class="col-sm-12 control-label" for="valor">valor</label>
+        <div class="col-sm-12">
+            <input class="controls" type="number" name="valor" id="valor" placeholder="valor">
+        </div>
+        <br>
+    </div>
+    {{!-- articulo --}}
+    <div class="form-group">
+        <label class="col-sm-12 control-label" for="articulo">articulo</label>
+        <div class="col-sm-12">
+            <input class="controls" type="text" name="articulo" id="articulo" placeholder="articulo">
+        </div>
+        <br>
+    </div>
+    {{!-- descripcion --}}
+    <div class="form-group">
+        <label class="col-sm-12 control-label" for="descripcion">descripcion</label>
+        <div class="col-sm-12">
+            <input class="controls" type="text" name="descripcion" id="descripcion" placeholder="descripcion">
+        </div>
+        <br>
+    </div>
+    {{!-- CREAR PEDIDO --}}
+    <div class="form-group">
+        <button type="submit" class="botons">CREAR PEDIDO</button>
+        <br>
+    </div>
+</section>
+</form>

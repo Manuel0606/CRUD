@@ -1,0 +1,22 @@
+<link rel="stylesheet" href="css/estilosInicioSesion.css">
+
+
+<form action="/delete_doc_p" method="post"> {{!-- FORMULARIO --}}
+<section class="form-register">
+    <h1 class="text-center">Ingrese Producto</h1>
+    {{!-- id_producto --}}
+    <div class="form-group">
+        <label class="col-sm-12 control-label" for="id_producto">id_producto</label>
+        <div class="col-sm-12">
+            <input class="controls" type="text" name="id_producto" id="id_producto" placeholder="id_producto">
+        </div>
+        <br>
+    </div>
+    <div class="controls">{{msg}}</div>
+    {{!-- Eliminar Producto --}}
+    <div class="form-group">
+        <button type="submit" class="botons">Eliminar Producto</button>
+        <br>
+    </div>
+</section>
+</form>

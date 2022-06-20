@@ -1,0 +1,36 @@
+<link rel="stylesheet" href="css/estilosInicioSesion.css">
+    <head runat="server">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Mostrar Pedido</title>
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <form action="/mostrar_producto" method="get">
+            <section class="form-register">
+                <h1 class="text-center">Mostrar Pedido</h1>
+                
+                <div class="form-group">
+                    <div class="col-sm-12">
+                        <span>Id del Producto</span>
+                        <div class="controls">{{datos.[0]}}</div>
+                        <span>Proveedor</span>
+                        <div class="controls">{{datos.[1]}}</div>
+                        <span>Nombre Producto</span>
+                        <div class="controls">{{datos.[2]}}</div>
+                        <span>Precio</span>
+                        <div class="controls">{{datos.[3]}}</div>
+                        <span>Stock</span>
+                        <div class="controls">{{datos.[4]}}</div>
+
+                    </div>
+                    <br>
+                </div>
+                {{!-- BOTON DE CONSULTAR --}}
+                <div class="form-group">
+                    <a class="botons" href="/consultar_producto">Volver</a>
+                    <br>
+                </div>
+            </section>
+        </form>
+    </body>
+</html>

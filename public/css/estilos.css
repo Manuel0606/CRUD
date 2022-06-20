@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: #f3f3f3;
+    font-family: 'Calibri';
+    height: 100vh;
+}
+
+header{
+    background-image: url('../img/fondo.jpg');
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+section{
+    min-width: 1000px;
+    margin: auto;
+    padding: 30px 0;
+}
+
+section h1{
+    font-size: 44px;
+}
+
+.contair{
+    text-align: center;
+}
+
+.contair p{
+    font-size: 60px;
+    font-weight: bold;
+    margin: 1em 0;
+}
+
+.contair a{
+    color: white;
+    text-decoration: none;
+    background: #1f53c5;
+    padding: 4px 20px;
+    border-radius: 30px;
+    font-size: 30px;
+    margin: 10px;
+}
+

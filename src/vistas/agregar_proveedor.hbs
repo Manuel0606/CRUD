@@ -1,0 +1,45 @@
+<link rel="stylesheet" href="css/estilosInicioSesion.css">
+
+
+<form action="/agregar_proveedor" method="POST"> {{!-- FORMULARIO --}}
+<section class="form-register">
+    <h1 class="text-center">Ingrese Proveedor</h1>
+    {{!-- id_proveedor --}}
+    <div class="form-group">
+        <label class="col-sm-12 control-label" for="id_proveedor">id_proveedor</label>
+        <div class="col-sm-12">
+            <input class="controls" type="text" name="id_proveedor" id="id_proveedor" placeholder="id_proveedor">
+        </div>
+        <br>
+    </div>
+    {{!-- nombre --}}
+    <div class="form-group">
+        <label class="col-sm-12 control-label" for="nombre">nombre</label>
+        <div class="col-sm-12">
+            <input class="controls" type="text" name="nombre" id="nombre" placeholder="nombre">
+        </div>
+        <br>
+    </div>
+    {{!-- telefono --}}
+    <div class="form-group">
+        <label class="col-sm-12 control-label" for="telefono">telefono</label>
+        <div class="col-sm-12">
+            <input class="controls" type="number" name="telefono" id="telefono" placeholder="telefono">
+        </div>
+        <br>
+    </div>
+    {{!-- correo --}}
+    <div class="form-group">
+        <label class="col-sm-12 control-label" for="correo">correo</label>
+        <div class="col-sm-12">
+            <input class="controls" type="text" name="correo" id="correo" placeholder="correo">
+        </div>
+        <br>
+    </div>
+    {{!-- Guardar Proveedor --}}
+    <div class="form-group">
+        <button type="submit" class="botons">Guardar Proveedor</button>
+        <br>
+    </div>
+</section>
+</form>

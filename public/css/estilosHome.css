@@ -1,0 +1,23 @@
+/* a {
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+} */
+
+a{
+    color: white;
+    text-decoration: none;
+    background: #163985;
+    padding: 4px 20px;
+    border-radius: 30px;
+    font-size: 30px;
+    margin: 10px;
+}
+
+body {
+    background-image: url('../img/fondo2.jpg');
+}

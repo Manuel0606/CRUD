@@ -1,0 +1,38 @@
+<link rel="stylesheet" href="css/estilosInicioSesion.css">
+
+
+<form action="/update_p" method="POST"> {{!-- FORMULARIO --}}
+<section class="form-register">
+    <h1 class="text-center">Ingrese Producto</h1>
+    {{!-- id_producto --}}
+    <div class="form-group">
+        <label class="col-sm-12 control-label" for="id_producto">id_producto</label>
+        <div class="col-sm-12">
+            <input class="controls" type="text" name="id_producto" id="id_producto" placeholder="id_producto">
+        </div>
+        <br>
+    </div>
+    {{!-- precio --}}
+    <div class="form-group">
+        <label class="col-sm-12 control-label" for="precio">Precio</label>
+        <div class="col-sm-12">
+            <input class="controls" type="number" name="precio" id="precio" placeholder="precio">
+        </div>
+        <br>
+    </div>
+    {{!-- stock --}}
+    <div class="form-group">
+        <label class="col-sm-12 control-label" for="stock">Stock</label>
+        <div class="col-sm-12">
+            <input class="controls" type="number" name="stock" id="stock" placeholder="stock">
+        </div>
+        <br>
+    </div>
+    {{!-- Guardar Actualizar --}}
+    <div class="form-group">
+        <button type="submit" class="botons">Actualizar</button>
+        <br>
+    </div>
+    <div class="controls">{{msg}}</div>
+</section>
+</form>
